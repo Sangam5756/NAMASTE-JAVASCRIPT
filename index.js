@@ -1,8 +1,15 @@
-var x = 7;
+// var x = 7;
 
-function getName() {
-  console.log("Namaste Sangam");
+// function getName() {
+//   console.log("Namaste Sangam");
+// }
+
+// getName();
+// console.log(x);
+
+function a(){
+  console.log(b);
 }
 
-getName();
-console.log(x);
+const b = 10;
+a();
