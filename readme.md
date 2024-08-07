@@ -33,5 +33,30 @@ when we try to access that varible before initialization it throws error that is
 
 
 
+# block scope and shadowing
+
+<!-- what is block scope -->
+the content within the curly brace called block
+
+<!-- why use of block -->
+to execute combined statement 
+
+<!-- what is scope -->
+the statement code written inside the block.
+is not accessible outside the block
+
+<!-- what is shadowing -->
+it means suppose we decalre the variable in the global space 
+a = 10 but inside the block we decalred the 
+{a= 100} when we try to console or access that variable inside the block  it give the value 100 so global a is shadow by inside a with new value , but outside the block the value remain same.
+in the case of let const but except var
+when we decalre variable using the var when shadowing happen it change the value of that variable permenently
+
+so good practive use var if it neccessary
+otherwise use const let in day to day coding
+
+
+
+
 
 
