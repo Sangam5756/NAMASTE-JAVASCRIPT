@@ -18,5 +18,20 @@ THIS IS ALSO CALLED THE SCOPE CHAIN
 
 IT IS CREATED WHENEVER A EXECUTION CONTEXT IS CREATED
 
+# let , const , var 
+<!-- var is global store in memory -->
+<!-- when we access var before initialization and inintialize it after it  -->
+console.log - undefined.
+
+but with const it gives us reference error so now we know the behavious of the let const and var
+
+as we know the var store in global space 
+
+- but the const let store in the different script space
+
+when we try to access that varible before initialization it throws error that is called temporal dead zone
+
+
+
 
 

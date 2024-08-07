@@ -1,9 +1,9 @@
 
-function a(){
-  var b=10;
-  function b(){
-    console.log(b);
-  }
-}
+console.log(a);
 
-a();
+
+var a = 10;
+const b = 10;
+
+console.log(b);
+
