@@ -1,15 +1,20 @@
-let a= 10;
-{
-
-  const a =100;
-  let b=200;
-  const c = 300;
-
-  console.log(a);
-  console.log(b);
-  console.log(c)
 
 
+
+// currying 
+function multiply(a){
+
+  return function (b){
+    return a*b;
+  }
 }
 
-console.log(a);
+for(let j=1; j<=10; j++){
+  console.log("table of " , j)
+  let multiple2 = multiply(j);
+
+  for(let i =1; i<=10; i++){
+    console.log(multiple2(i));
+    
+  }
+}
