@@ -57,6 +57,19 @@ otherwise use const let in day to day coding
 
 
 
+# Closures
 
+<!-- function with lexical scope bundled together forms a closures -->
+(function + lexical scope)  => closures
 
+<!--  when we return the function or anything it have reference to that variable that persist not the value -->
 
+uses ->
+module design pattern
+currying
+functions like once
+memoize
+maintaining state in async worlds
+setTimeouts
+Iterators
+and many more........
