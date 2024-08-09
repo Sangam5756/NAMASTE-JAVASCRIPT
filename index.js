@@ -1,20 +1,31 @@
+// function statement
 
-
-
-// currying 
-function multiply(a){
-
-  return function (b){
-    return a*b;
-  }
+function a() {
+  console.log("a called");
 }
 
-for(let j=1; j<=10; j++){
-  console.log("table of " , j)
-  let multiple2 = multiply(j);
+a();
 
-  for(let i =1; i<=10; i++){
-    console.log(multiple2(i));
-    
-  }
+//function expression
+var b = function (param1, param2) {
+  console.log("b called");
+};
+
+
+// anonymous function  without the name
+// function (){
+
+// }
+
+// named function expression
+let c  = function xyz(){
+  console.log("xys")
+
+  
 }
+
+c();
+
+
+
+
