@@ -89,3 +89,7 @@ the function which take the function as input and perform operation on them are 
 function which stored inside variable called function expression
 
 
+
+# call-Back function
+<!-- callback function is function in js which is call later in the program the reason we used that as we know js is single threaded language and it not go forward until the stack is empty so callback function help to execute rest of the code and it also run the code which has the callback function later in the stack -->
+
